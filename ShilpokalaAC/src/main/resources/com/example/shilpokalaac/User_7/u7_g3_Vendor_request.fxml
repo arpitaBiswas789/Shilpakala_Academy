@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_by_pushon.U7G3VendorRequest">
+    <Label layoutX="200.0" layoutY="20.0" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Approve Vendor Requests" />
+    <TableView fx:id="vendorTV" layoutX="30.0" layoutY="60.0" prefHeight="260.0" prefWidth="543.0">
+        <columns>
+            <TableColumn fx:id="vendorNameTC" prefWidth="140.0" text="Vendor Name" />
+            <TableColumn fx:id="requestDetailsTC" prefWidth="152.0" text="Request Details" />
+            <TableColumn fx:id="documentTC" prefWidth="138.0" text="Document" />
+            <TableColumn fx:id="actionTC" prefWidth="110.0" text="Action" />
+        </columns>
+    </TableView>
+    <Label fx:id="confirmationLabel" layoutX="375.0" layoutY="331.0" prefHeight="45.0" prefWidth="190.0" text="" textFill="green" />
+    <Button layoutX="30.0" layoutY="341.0" onAction="#updateStatusONA" text="Update Status" />
+</AnchorPane>
