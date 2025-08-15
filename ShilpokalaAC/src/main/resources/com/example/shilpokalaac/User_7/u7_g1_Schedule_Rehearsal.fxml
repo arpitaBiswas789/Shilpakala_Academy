@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_by_pushon.ScheduleRehearsal">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_by_pushon.U7G1ScheduleRehearsal">
     <children>
         <Text layoutX="43.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Event" />
         <Text layoutX="23.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick Rehearsal Date" />
