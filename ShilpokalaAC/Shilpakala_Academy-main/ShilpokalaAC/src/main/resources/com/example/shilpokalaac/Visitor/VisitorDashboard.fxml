@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="486.0" prefWidth="180.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Button mnemonicParsing="false" onAction="#updateProfileButton" prefHeight="46.0" prefWidth="180.0" text="Update Profile" />
+            <Button mnemonicParsing="false" onAction="#buyTicketButton" prefHeight="47.0" prefWidth="180.0" text="Buy ticket" />
+            <Button mnemonicParsing="false" onAction="#SubmitFeedbackButton" prefHeight="49.0" prefWidth="180.0" text="Submit Feedback" />
+            <Button mnemonicParsing="false" onAction="#ViewEventButton" prefHeight="47.0" prefWidth="180.0" text="View ongoing/upcoming Event" />
+            <Button mnemonicParsing="false" onAction="#AddCalenderButton" prefHeight="49.0" prefWidth="180.0" text="Add Calender" />
+            <Button mnemonicParsing="false" onAction="#SearchArtistButton" prefHeight="49.0" prefWidth="180.0" text="Search Events By Artist Name" />
+            <Button mnemonicParsing="false" onAction="#ReportButton" prefHeight="50.0" prefWidth="180.0" text="Report An Issue" />
+            <Button mnemonicParsing="false" onAction="#RecieveRecomButton" prefHeight="49.0" prefWidth="180.0" text="Recieve Event Reccomendation" />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

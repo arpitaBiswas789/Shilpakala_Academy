@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shilpokalaac.LoginController">
+   <children>
+      <Label layoutX="196.0" layoutY="146.0" text="User id" />
+      <Label layoutX="190.0" layoutY="192.0" text="Password" />
+      <TextField layoutX="253.0" layoutY="142.0" />
+      <PasswordField layoutX="253.0" layoutY="188.0" />
+      <Button layoutX="253.0" layoutY="234.0" mnemonicParsing="false" text="Login" />
+      <Button layoutX="312.0" layoutY="234.0" mnemonicParsing="false" text="Create Account" />
+      <Label layoutX="286.0" layoutY="71.0" text="LOGIN">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
