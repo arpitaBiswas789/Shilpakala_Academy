@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="518.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shilpokalaac.Visitor.SubmitFeedback">
+   <children>
+      <Label layoutX="205.0" layoutY="26.0" text="Submit Feedback on performance">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="feedbacktableview" layoutX="22.0" layoutY="97.0" prefHeight="200.0" prefWidth="366.0">
+        <columns>
+          <TableColumn fx:id="perforCom" prefWidth="137.6000213623047" text="performance name" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="Tickect ID" />
+          <TableColumn fx:id="datecom" minWidth="0.0" prefWidth="87.20002746582031" text="date" />
+            <TableColumn fx:id="ticIDcom" prefWidth="145.5999755859375" text="Ticket ID" />
+        </columns>
+      </TableView>
+      <Button layoutX="50.0" layoutY="307.0" mnemonicParsing="false" onAction="#actionTabieButton" text="Action" />
+      <Label layoutX="456.0" layoutY="110.0" text="Rating" />
+      <ComboBox fx:id="ratingcombo" layoutX="506.0" layoutY="106.0" prefWidth="150.0" />
+      <TextArea fx:id="submitTextArea" layoutX="456.0" layoutY="171.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="491.0" layoutY="431.0" mnemonicParsing="false" onAction="#submitbutton" text="Submit" />
+      <Button layoutX="631.0" layoutY="431.0" mnemonicParsing="false" onAction="#canclrbutton" text="Cancle" />
+      <Label fx:id="showSuccLable" layoutX="177.0" layoutY="422.0" prefHeight="74.0" prefWidth="150.0" text="Label" />
+   </children>
+</AnchorPane>
